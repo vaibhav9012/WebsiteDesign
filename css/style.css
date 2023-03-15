@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+}
+
+header {
+    background-color: #2A3855;
+    justify-content: space-between;
+    padding: 5px 0px;
+    /* position: relative;
+    to; */
+
+}
+
+
+header ul li {
+    color: white;
+    display: inline-flex;
+    font-size: small;
+}
+
+#head3 {
+    margin-left: 350px;
+
+}
+
+#head1,
+#head2 {
+    margin-left: 70px;
+}
+
+.head img {
+    align-items: center;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+.nav-bar {
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: antiquewhite;
+    /* top: 0; */
+    width: 100%;
+}
+
+.dropdown-home {
+    border: none;
+    background-color: inherit;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #2A3855;
+}
+
+.scroll-home {
+    position: relative;
+    width: 150px;
+    display: none;
+    padding: 20px;
+    background-color: rgb(240, 231, 231);
+    border-radius: 8px;
+}
+
+.scroll-home a {
+    text-decoration: none;
+    line-height: 1.6;
+}
+
+button:hover .scroll-home {
+    display: block;
+    /* background: none; */
+}
+
+.dropdown-page {
+    border: none;
+    background-color: inherit;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #2A3855;
+}
+
+.scroll-page {
+    position: relative;
+    width: 100px;
+    /* height: 1px; */
+    display: none;
+    padding: 20px;
+    background-color: rgb(240, 231, 231);
+    border-radius: 8px;
+}
+
+.scroll-page a {
+    text-decoration: none;
+    line-height: 1.6;
+}
+
+button:hover .scroll-page {
+    display: block;
+}
+
+.dropdown-news {
+    /* text-decoration: none; */
+    border: none;
+    background-color: inherit;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #2A3855;
+}
+
+.scroll-news {
+    position: relative;
+    width: 100px;
+    /* height: 1px; */
+    display: none;
+    padding: 20px;
+    background-color: rgb(240, 231, 231);
+    border-radius: 8px;
+}
+
+.scroll-news a {
+    text-decoration: none;
+    line-height: 1.6;
+}
+
+button:hover .scroll-news {
+    display: block;
+}
+
+
+.dropdown-elements {
+    /* text-decoration: none; */
+    border: none;
+    background-color: inherit;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #2A3855;
+}
+
+.scroll-elements {
+    position: relative;
+    width: 100px;
+    /* height: 1px; */
+    display: none;
+    padding: 20px;
+    background-color: rgb(240, 231, 231);
+    border-radius: 8px;
+}
+
+.scroll-elements a {
+    text-decoration: none;
+    line-height: 1.6;
+}
+
+button:hover .scroll-elements {
+    display: block;
+}
+
+
+#contact-btn {
+    border: none;
+    background-color: inherit;
+    font-size: 16px;
+    color: #2A3855
+}
+
+#purchase-btn {
+    border: 2px solid #2A3855;
+    font-size: 15px;
+    color: #2A3855;
+    background-color: white;
+    border-radius: 16px;
+    width: 100px;
+    height: 30px;
+    padding: 0 10px 0 10px;
+    margin-right: 25px;
+    float: right;
+}
+
+#purchase-btn:hover {
+    color: white;
+    background-color: #2A3855;
+}
+
+.container-2 {
+    background: url("/images/fontImg.jpg");
+    background-repeat: no-repeat;
+    padding: 100px;
+    background-position: 100%;
+    background-size: cover;
+    /*width: 589px;
+    height: 663px; */
+}
+
+.cont-1 {
+    display: inline-block;
+    width: 500px;
+    padding: 70px 100px 25px 100px;
+
+}
+
+.cont-2 {
+    /* display: inline-block; */
+    padding: 0px 100px 0px 100px;
+}
+
+#help-1 {
+    font-family: "Montserrat", "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 3.15em !important;
+    font-weight: 700;
+}
+
+.help{
+    color: #2A3855;
+}
+
+.btn {
+    margin-right: 10px;
+    background-color: #2A3855;
+    color: white;
+    border-radius: 6px;
+    padding: 12px 25px;
+    border: none;
+    width: 150px;
+}
+
+.wel-1{
+    color:#2A3855;
+    text-align: center;
+    /* margin: 0px; */
+    padding: 64px 0px 0px 0px;
+}
+
+.wel-1 h3{
+    font-size: 2.5em;
+}
+
+.wel-2 p{
+    
+}
